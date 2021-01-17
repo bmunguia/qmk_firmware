@@ -410,6 +410,7 @@ enum quantum_keycodes {
 
     // RGB functionality
     RGB_TOG,
+    RGB_TOG_NOEEPROM,
     RGB_MODE_FORWARD,
     RGB_MODE_REVERSE,
     RGB_HUI,
