@@ -36,4 +36,8 @@
 /* override number of MIDI tone keycodes (each octave adds 12 keycodes and allocates 12 bytes) */
 //#define MIDI_TONE_KEYCODE_OCTAVES 2
 
+/* Max power consumption for phones/tablets */
 #define USB_MAX_POWER_CONSUMPTION 100
+
+/* RGB lights switch off when host goes to sleep */
+#define RGBLIGHT_SLEEP
